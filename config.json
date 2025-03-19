@@ -1,0 +1,15 @@
+{
+  "service_account_file": "service-account.json",
+  "spreadsheet_id": "Your_Spreadsheet_ID",
+  "sheet_range": "A2:G",
+  "price_selector": ".spotlight__price",
+  "retries": 2,
+  "pull_sheet_enabled": true,
+  "MAX_THREADS": 3,
+  "scrape_interval_hours": 24,
+  "log_level": "INFO",
+  "output_file": "sheet_data.json",
+  "timeout": 30000,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+  "block_resources": ["image", "stylesheet"]
+}

@@ -1,0 +1,9 @@
+# Ignore sensitive files
+service-account.json
+
+
+# Ignore Python cache and virtual environment
+__pycache__/
+venv/
+.env# created by virtualenv automatically
+*
